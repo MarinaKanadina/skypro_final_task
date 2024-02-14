@@ -2,34 +2,34 @@ body {
     font-size: 24px;
 }
 .green {
-    color: blue;
+    color: green;
 }
 .red {
-    color: green;
+    color: red;
 }
 .blue {
     color: red;
 }
 li.green {
-    color: red;
-}
-li.red {
-    color: blue;
-}
-li.blue {
     color: green;
 }
-ul ol li.red {
-    color: cyan;
+li.red {
+    color: red;
 }
-ul ol li.green {
-    color: orange;
+li.blue {
+    color: blue;
 }
-ul ol li.blue {
-    color: magenta;
+li.red {
+    color: red;
+}
+li.green {
+    color: green;
+}
+li.blue {
+    color: blue;
 }
 p.italic {
-    font-weight: italic;
+    font-style: italic;
 }
 p.bold {
     font-style: bold;
