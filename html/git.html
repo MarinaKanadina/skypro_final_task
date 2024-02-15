@@ -50,10 +50,7 @@
     <p>
         <code> git clone --depth=1 git://someserver/somerepo dirformynewrepo </code>
     </p>
-    <p>
-        <code>
-            rm -rf !$/.git</code>
-    </p>
+    
     <p>
         <b>
         <li><b class="red" style="color:red">git remote add</b></li>
@@ -105,20 +102,17 @@
     </p>
     <p>
         Эта команда используется для мягкой или жёсткой отмены изменений, позволяет сбросить состояние проекта до
-        нужного коммита. Например.&nbsp; Вернуться в прошлое
-    </p>
-    <p>
-        отмена неотправленного коммита: <li><b class="red" style="color:red">git reset</b></li>
-    </p>
-    
+        нужного коммита. Вернуться в прошлое
+    </p> 
     <p>
         <li><b class="red" style="color:red">git reset --hard f7880ae2</b></li>
     </p>
     <p>
         отмена отправленного коммита ( возврат к состояние коммита 7880ae2 )</p>
-        <code>
-            git push origin -f</code>
+        <p>
+            <li><b class="red" style="color:red">git push -f</b></li>
     </p>
+    <p>Удаляет из ветки на сервере все коммиты, которых нет в локальной версии, и записывает новые</p>
     <p>
       <li><b class="red" style="color:red">git commit</b></li>
     </p>
@@ -144,17 +138,16 @@
     </p>
   
     <p>
-        <li><b class="red" style="color:red">git push -u origin</b></li>
+        <li><b class="red" style="color:red">git push -u origin main</b></li>
     </p>
+    <p>отправить локальный репозиторий на сервер</p>
     <p>
         Ключ <code>-u</code> (полный вариант <code>--set-upstream</code>) создаёт в удалённом репозитории ветку,
         соответствующую локальной и связывает их.
     </p>
     <p>
         <code>git push
-            <repository>
-                <branch></branch>
-            </repository>
+            
         </code>
     </p>
     <p>
